@@ -1,13 +1,5 @@
 
-var config = {
-    apiKey: "AIzaSyB7_qOVMBZ1uQ8DffenLGIvVMQOS8UZnvE",
-    authDomain: "trainhomework-5e2e1.firebaseapp.com",
-    databaseURL: "https://trainhomework-5e2e1.firebaseio.com",
-    projectId: "trainhomework-5e2e1",
-    storageBucket: "trainhomework-5e2e1.appspot.com",
-    messagingSenderId: "7853129790"
-  };
-  firebase.initializeApp(config);
+var trainData = new Firebase("https//:trainhomework-5e2e1.firebaseio.com");
 
 $("#addTrainBtn").on("click", function(){
 
